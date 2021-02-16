@@ -1,0 +1,42 @@
+[
+	{
+		"Emp_Reg_No": "11290",
+		"Emp_Name": "ABDULLAH AL WADUD",
+		"Blood_Group_Name": "A+",
+		"Emp_Mobile": "1714701132",
+		"Office_Name": "ADMIN. & HR DIVISION",
+		"Short_Designation_Name": "SPO"
+	},
+	{
+		"Emp_Reg_No": "10741",
+		"Emp_Name": "MD. MAHMUD HASAN",
+		"Blood_Group_Name": "AB+",
+		"Emp_Mobile": "1790022222",
+		"Office_Name": "ADMIN. & HR DIVISION",
+		"Short_Designation_Name": "SPO"
+	},
+	{
+		"Emp_Reg_No": "10584",
+		"Emp_Name": "S.M. RUHUL AMIN",
+		"Blood_Group_Name": "A-",
+		"Emp_Mobile": "1714750900",
+		"Office_Name": "AKKELPUR BR, JOYPURHAT",
+		"Short_Designation_Name": "PO"
+	},
+	{
+		"Emp_Reg_No": "11324",
+		"Emp_Name": "MD. AYUB HOSSAIN TALUKDER",
+		"Blood_Group_Name": "AB-",
+		"Emp_Mobile": "1758963725",
+		"Office_Name": "AKKELPUR BR, JOYPURHAT",
+		"Short_Designation_Name": "PO"
+	},
+	{
+		"Emp_Reg_No": "10858",
+		"Emp_Name": "MD. SAHANUL HOSSEN",
+		"Blood_Group_Name": "O+",
+		"Emp_Mobile": "1921800285",
+		"Office_Name": "AKKELPUR BR, JOYPURHAT",
+		"Short_Designation_Name": "SO"
+	}
+]

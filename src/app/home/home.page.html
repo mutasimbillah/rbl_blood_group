@@ -1,0 +1,50 @@
+<ion-header>
+	<ion-toolbar color="danger">
+		<ion-title>
+			RBL Blood Group
+		</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+	<ion-row>
+		<ion-col>
+			<!-- Searchbar with a placeholder -->
+			<ion-searchbar
+				placeholder="Blood Group,Name,Designation"
+				[(ngModel)]="query"
+				animated="true"
+			></ion-searchbar>
+		</ion-col>
+	</ion-row>
+	<ion-row>
+		<ion-col size="12" size-lg>
+			<ion-card *ngFor="let data of donors | filter:query">
+				<ion-card-header>
+					<ion-card-title>{{data.Emp_Name}}</ion-card-title>
+					<ion-card-subtitle
+						>{{data.Short_Designation_Name}}, {{data.Office_Name}}
+					</ion-card-subtitle>
+				</ion-card-header>
+
+				<ion-card-content>
+					<h2>Blood Group : {{data.Blood_Group_Name}}</h2>
+					<h2>Mobile Number : {{data.Emp_Mobile}}</h2>
+					<br />
+					<ion-button
+						expand="full"
+						color="danger"
+						(click)="CallDonor(data.Emp_Mobile)"
+						>Call Now
+					</ion-button>
+					<ion-button
+						expand="full"
+						color="light"
+						(click)="DonorDetails(data.Emp_Reg_No)"
+						>Donor Details
+					</ion-button>
+				</ion-card-content>
+			</ion-card>
+		</ion-col>
+	</ion-row>
+</ion-content>

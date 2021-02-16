@@ -1,0 +1,7 @@
+{
+  "name": "rbl_blood_group",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
